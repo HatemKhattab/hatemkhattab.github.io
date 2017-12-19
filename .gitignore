@@ -4,7 +4,3 @@ _site
 .gitignore
 .bundle
 .env
-.*.swp
-.*.swo
-.*.swa
-*.swp
