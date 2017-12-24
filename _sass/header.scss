@@ -1,4 +1,13 @@
 .page-header{
   background: url("../images/mac-iphone.jpg") no-repeat center center fixed;
   height: 100vh;
+
+  h2 {
+  	margin: 0;
+  	padding-top:4em; 
+  	font: {
+      size: 4em;
+      weight: 700;
+    }
+  }
 }
