@@ -1,13 +1,32 @@
 .page-header{
   background: url("../images/mac-iphone.jpg") no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
-
+  font-family: 'Roboto', sans-serif;
+  
   h2 {
   	margin: 0;
-  	padding-top:4em; 
+  	padding-top:4em;
+  	color: white; 
   	font: {
       size: 4em;
       weight: 700;
     }
+  }
+
+  h3 {
+  	color: white; 
+  	font: {
+      size: 2em;
+      weight: 500;
+    }
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .page-header {
+    .container {
+      width: 48rem;
+    } 
   }
 }
