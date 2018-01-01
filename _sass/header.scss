@@ -3,6 +3,8 @@
   background-size: cover;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
   
   h2 {
   	margin: 0;
@@ -28,5 +30,10 @@
     .container {
       width: 48rem;
     } 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-header {
   }
 }
