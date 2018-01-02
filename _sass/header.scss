@@ -8,7 +8,6 @@
   
   h2 {
   	margin: 0;
-  	padding-top:4em;
   	color: white; 
   	font: {
       size: 4em;
@@ -35,5 +34,12 @@
 
 @media only screen and (max-width: 768px) {
   .page-header {
+    h2 {
+      font-size: 3em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
   }
 }
