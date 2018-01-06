@@ -1,0 +1,28 @@
+.footer {
+	display: flex;
+	align-items: center;
+	height: 10em;
+	background-color: #262626;
+	color:white;
+	font-family:'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	.icon {
+		font-size: 2em;
+		color: white;
+		margin: 0 10px 0 10px;
+	}
+
+	.icons {
+		margin-left:20%; 
+		margin-right:20%;
+	}
+
+	.copyright {
+		margin-top: 20px;
+		h3 {
+			font-size: 1em;
+			font-weight: 100;
+		}
+	}
+}
