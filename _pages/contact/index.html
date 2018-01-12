@@ -4,6 +4,21 @@ permalink: '/contact/'
 ---
 <section class="Contact">
 	<div class="container">
-		
-	</div>
+    <div id="googleMap">
+    	
+    </div>
+
 </section>
+
+<script>
+	function myMap() {
+		var mapProp= {
+		    center:new google.maps.LatLng(55.605833,13.002500),
+		    zoom:12,
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0yD6aLazL9hbvgyJMwtm76xB50Y5SEGk&callback=myMap"></script>
+	</div>
