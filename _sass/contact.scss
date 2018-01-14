@@ -1,0 +1,55 @@
+.Contact {
+	font-family: 'Roboto', sans-serif;
+	margin: 50px 0 20px 0;
+  #googleMap {
+  	width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  a {
+  	text-decoration: none;
+  	font-size: 30px;
+  	color: #46aee2;
+  }
+
+  .icon {
+  	color: #f7a427;
+  	font-size: 2em;
+  }
+
+  .link {
+  	margin-bottom: 15px;
+  }
+}
+
+@media only screen and (width: 48em) {
+  .Contact {
+  	.container {
+      width: 48rem;
+    }
+    .row {
+    	margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px ){
+	.Contact {
+		.row {
+			margin-right: 0;
+			margin-left: 0;
+		}
+		#googleMap { 
+			margin-bottom: 20px;
+		}
+		.icon {
+			font-size: 1em;
+		}
+
+		a {
+			font-size: 10px;
+		}
+	}
+
+}
