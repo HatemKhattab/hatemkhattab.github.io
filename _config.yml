@@ -12,6 +12,7 @@ defaults:
       path: "assets/images"
     values:
       image: true
+include: ['_pages']
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
