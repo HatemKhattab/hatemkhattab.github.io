@@ -14,7 +14,16 @@
 	.header {
 		img {
 			width:150px;
-			border-radius: 15%;
+			border-radius: 50%;
+		}
+	}
+
+	.contact {
+		a {
+			text-decoration-style: wavy;
+		}
+		img {
+			width: 30px;
 		}
 	}
 }
