@@ -4,10 +4,17 @@
 	.title {
 		h1 {
 			font:{
-			  family: roboto;
+			  family: $roboto;
         size: 1em;
         weight: 300;
 			}
+		}
+	}
+
+	.header {
+		img {
+			width:150px;
+			border-radius: 50%;
 		}
 	}
 }
