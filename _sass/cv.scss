@@ -1,3 +1,13 @@
 .cv {
 	margin: 0;
+
+	.title {
+		h1 {
+			font:{
+			  family: roboto;
+        size: 1em;
+        weight: 300;
+			}
+		}
+	}
 }
