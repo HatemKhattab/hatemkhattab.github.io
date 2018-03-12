@@ -1,12 +1,19 @@
 .cv {
+
 	margin: 0;
   h1, h2, h3, h4, hr {
   	margin: 0;
   }
 
+  .icon {
+		img {
+			width:40px;
+		}
+	}
+
 	.title {
 		h1 {
-			font:{
+			font: {
 			  family: $roboto;
         size: 1em;
         weight: 300;
@@ -30,9 +37,4 @@
 		}
 	}
 
-	.goal {
-		img {
-			width:40px;
-		}
-	}
 }
