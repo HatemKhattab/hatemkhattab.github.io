@@ -1,5 +1,8 @@
 .cv {
 	margin: 0;
+  h1, h2, h3, h4, hr {
+  	margin: 0;
+  }
 
 	.title {
 		h1 {
@@ -24,6 +27,12 @@
 		}
 		img {
 			width: 30px;
+		}
+	}
+
+	.goal {
+		img {
+			width:40px;
 		}
 	}
 }
