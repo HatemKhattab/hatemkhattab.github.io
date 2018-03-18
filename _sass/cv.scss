@@ -1,8 +1,8 @@
 .cv {
-
 	margin: 0;
-  h1, h2, h3, h4, hr {
-  	margin: 0;
+  h1, h2, h3, h4, hr, ul {
+		margin: 0;
+		padding: 0;
   }
 
   .icon {
@@ -21,7 +21,7 @@
 		}
 	}
 
-	.header {
+	.main-header {
 		img {
 			width:150px;
 			border-radius: 50%;
